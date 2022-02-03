@@ -1,0 +1,32 @@
+"args": ["files/queries1.txt", "yes", "yes", "tfidf"]
+Q:madureira palavra
+10k	3
+1A	2
+7H	1
+--------------------------------------------------------------------------------
+
+for chunk in chunks(text):
+    words = []
+    doc_len = {}
+    for line in chunk:
+        index = line['review_id']
+        appended_string = line['product_title'] + line['review_headline']
+        tokens += tokenizer.tokens(appended_string, index)
+
+--------------------------------------------------------------------------------
+
+for token in tokens:
+	if len(token) < 3 :
+		continue
+	else:
+		final_tokens.append((token, index))
+
+	return final_tokens
+
+--------------------------------------------------------------------------------
+
+{"abstract": {"1A": 2,3,4,5, "5F": 2}
+
+------------------------------------------------------------------------------------
+
+{"diogo e ricardo e diogo": {1A: 1} {3C : 3} {2B : 3}}

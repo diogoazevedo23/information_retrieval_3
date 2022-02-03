@@ -1,0 +1,3 @@
+                                                                     top50Results                                            top20Results                                             top10Results
+diogo e ricardo e diogo    {'precision': 0.667, 'recall': 1.2, 'fMeasure': 0.857}  {'precision': 0.571, 'recall': 2.0, 'fMeasure': 0.888}  {'precision': 0.562, 'recall': 2.25, 'fMeasure': 0.899}
+madureira palavra        {'precision': 0.556, 'recall': 1.667, 'fMeasure': 0.834}  {'precision': 0.571, 'recall': 2.0, 'fMeasure': 0.888}  {'precision': 0.562, 'recall': 2.25, 'fMeasure': 0.899}

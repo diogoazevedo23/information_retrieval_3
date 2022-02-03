@@ -1,0 +1,1 @@
+{"abstract": 0.5, "azevedo": 0.3333333333333333, "diogo": 0.3333333333333333, "madureira": 0.25, "nada": 1.0, "nenhum": 1.0, "palavra": 0.5, "program": 0.3333333333333333, "ricardo": 0.25, "test": 1.0, "text": 0.5}

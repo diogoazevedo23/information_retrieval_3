@@ -1,0 +1,9 @@
+File == files/teste1.txt
+
+	**Answers**
+
+
+a) Total indexing time == 0.03300285339355469 s.
+b) Total index size on disk == 0.000 GB
+c) Vocabulary size(number of terms) == 11 terms
+d) Number of temporary index segments written to disk (before merging) == 1 blocks

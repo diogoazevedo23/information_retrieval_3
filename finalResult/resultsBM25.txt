@@ -1,0 +1,22 @@
+('Q:', 'diogo e ricardo e diogo\n')
+4D
+6G
+3C
+10K
+2B
+9J
+7H
+8I
+1A
+5F
+('Q:', 'madureira palavra')
+4D
+6G
+3C
+10K
+2B
+9J
+7H
+8I
+1A
+5F
