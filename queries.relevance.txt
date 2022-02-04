@@ -1,15 +1,13 @@
 Q:diogo e ricardo e diogo
+4D	3
 3C	3
-2B	3
 10K	2
-1A	2
-5F	2
-4D	1
-6G	1
+8I	2
+9J	1
+
 Q:madureira palavra
-3C	3
 2B	3
-1A	2
-5F	2
-6G	1
+3C	2
 4D	1
+8I	1
+10K	1

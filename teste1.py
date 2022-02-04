@@ -33,8 +33,8 @@ class teste1:
 
     """ Initialize some functions/variables """
 
-    # def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/amazon_reviews_us_Digital_Video_Games_v1_00.tsv'):
-    # def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/testFile.tsv'):
+    #def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='../../amazon_reviews_us_Digital_Music_Purchase_v1_00.tsv'):
+    #def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/testFile.tsv'):
     def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/teste1.txt'):
         self.tokenizer_mode = tokenizer_mode
         self.tokenizer = Tokenizer(min_tamanho, tokenizer_mode, steemer)
@@ -91,7 +91,7 @@ class teste1:
                 self.criarBlocos(tokens)
                 num1 += 1
 
-                print("Tokens ->\n", tokens)
+                #print("Tokens ->\n", tokens)
 
         # print(" ")
 
@@ -144,6 +144,7 @@ class teste1:
         print("\nFinished writing block")
 
     """ Merge and save the merged block """
+    # Added Function to save position of words in docs
 
     def pos_index(self):
         self.merger.merge_docs(self.len_doc)

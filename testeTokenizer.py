@@ -67,6 +67,8 @@ class Tokenizer:
                     continue
                 else:
                     final_tokens.append((token, index))
+                    # Added Function to save position of words in docs
+                    self.pos_tokensArr.append({token : {index : (count_pos_word - 1)}})
         else:
             for token in tokens:
                 count_pos_word += 1
@@ -74,24 +76,10 @@ class Tokenizer:
                     continue
                 else:
                     final_tokens.append((token, index))
-                    #final_tokens.append((token, index, count_pos_word))
+                    # Added Function to save position of words in docs
                     self.pos_tokensArr.append({token : {index : (count_pos_word - 1)}})
-                    """
-                    if token not in self.pos_tokens:
-                        self.pos_tokens[token] = {index : count_pos_word}
-                    else:
-                        if index not in self.pos_tokens[token]:
-                            #self.pos_tokens[token].update({index:count_pos_word})
-                            self.pos_tokens[token].update({index:count_pos_word})
-                        else:
-                            self.pos_tokens[token][index] += count_pos_word
-
-                    #print("self.pos_tokens ->\n", self.pos_tokens.items())
-                    """
 
             final_tokens
-
-            # print("self.pos_tokensArr ->\n", self.pos_tokensArr)
 
         return final_tokens
 

@@ -1,3 +1,28 @@
+BM25 COM BOOST
+('Q:', 'diogo e ricardo e diogo\n')
+4D
+6G
+3C
+10K
+2B
+9J
+7H
+8I
+1A
+5F
+('Q:', 'madureira palavra')
+4D
+6G
+3C
+10K
+2B
+9J
+7H
+8I
+1A
+5F
+
+BM25 SEM BOOST
 ('Q:', 'diogo e ricardo e diogo\n')
 4D
 6G
